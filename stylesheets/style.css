@@ -1,3 +1,4 @@
+/*header*/
 .container{
     margin: 0 48px;
 }
@@ -20,4 +21,19 @@ ul{
 }
 li{
     margin-left: 32px;
+}
+
+/*profile-hero*/
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.hello{
+    margin-top: 64px;
+    margin-bottom: 0;
+    font-size: 56px;
+}
+.profile{
+    width: 70%;
+    margin: auto;
 }
