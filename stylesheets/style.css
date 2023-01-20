@@ -24,6 +24,9 @@ li{
 }
 
 /*profile-hero*/
+.profile-hero{
+    margin: 150px 100px;
+}
 h1{
     font-size: 40px;
     text-align: center;
@@ -32,8 +35,22 @@ h1{
     margin-top: 64px;
     margin-bottom: 0;
     font-size: 56px;
+    color: rebeccapurple;
 }
 .profile{
     width: 70%;
     margin: auto;
+}
+
+/*contents*/
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work{
+    background-color: rgb(151, 255, 246);
+    width: 480px;
+    height: 480px;
+    margin: 20px;
 }
