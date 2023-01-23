@@ -6,10 +6,6 @@
     display: flex;
     justify-content: space-between;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-}
 .header-name{
     font-size: 24px;
     margin: 24px;
@@ -29,31 +25,21 @@ li{
 
 /*profile-hero*/
 .profile-hero{
-    margin: 150px 100px;
+    margin: 100px 100px;
 }
 h1{
-    font-size: 40px;
     text-align: center;
 }
 .hello{
-    margin-top: 64px;
-    margin-bottom: 0;
     font-size: 56px;
     color: rebeccapurple;
 }
-.profile{
-    width: 70%;
-    margin: auto;
+img{
+    max-width: 636px;
 }
 
 /*contents*/
 .inner-box{
     height: 480px;
     width: 480px;
-}
-.col-xl-6{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
