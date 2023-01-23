@@ -2,6 +2,10 @@
 .container{
     margin: 0 48px;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -43,14 +47,13 @@ h1{
 }
 
 /*contents*/
-.contents{
+.inner-box{
+    height: 480px;
+    width: 480px;
+}
+.col-xl-6{
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.work{
-    background-color: rgb(151, 255, 246);
-    width: 480px;
-    height: 480px;
-    margin: 20px;
 }
