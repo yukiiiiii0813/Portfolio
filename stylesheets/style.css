@@ -1,7 +1,4 @@
 /*header*/
-.container{
-    margin: 0 48px;
-}
 .header{
     display: flex;
     justify-content: space-between;
@@ -18,15 +15,13 @@ ul{
     display: flex;
     list-style: none;
     align-items: center;
+    margin: auto 0;
 }
 li{
     margin-left: 32px;
 }
 
 /*profile-hero*/
-.profile-hero{
-    margin: 100px 100px;
-}
 h1{
     text-align: center;
 }
@@ -34,12 +29,22 @@ h1{
     font-size: 56px;
     color: rebeccapurple;
 }
-img{
-    max-width: 636px;
-}
-
 /*contents*/
 .inner-box{
     height: 480px;
     width: 480px;
+}
+hr{
+    margin-left: 72px;
+    margin-right: 72px;
+}
+/* footer */
+.footer-icon{
+    text-align: center;
+}
+
+/* Detail page */
+/* hero */
+.detail-hero{
+    margin: 100px;
 }
