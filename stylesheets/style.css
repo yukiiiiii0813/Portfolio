@@ -28,8 +28,11 @@ li{
 /*profile-hero*/
 .hello{
     font-size: 56px;
-    color: rebeccapurple;
+    color: #3413FF;
     font-weight: bold;
+}
+.profile{
+    font-size: 2.0rem;
 }
 /*contents*/
 hr{
