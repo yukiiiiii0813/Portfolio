@@ -1,3 +1,7 @@
+/* body */
+body{
+    font-family: 'DM Serif Display', serif;
+}
 /*header*/
 .header{
     display: flex;
@@ -22,12 +26,10 @@ li{
 }
 
 /*profile-hero*/
-h1{
-    text-align: center;
-}
 .hello{
     font-size: 56px;
     color: rebeccapurple;
+    font-weight: bold;
 }
 /*contents*/
 .inner-box{
@@ -43,8 +45,49 @@ hr{
     text-align: center;
 }
 
+
+
+
+
+
 /* Detail page */
 /* hero */
 .detail-hero{
-    margin: 100px;
+    margin-top: 100px;
+    background-color: #f8f8f7;
+    text-align: center;
+    height: 120px;
 }
+.detail-hero-h1{
+    font-size: 48px;
+    margin: 0;
+    padding-top: 16px;
+    font-weight: 800;
+}
+/* main */
+.img-back-1{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 100px;
+    background-image: url();
+}
+
+.detail-main-h1{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.detail-row{
+    margin: 0 100px;
+}
+p{
+    font-size: 24px;
+}
+.main-image{
+    width: 100%;
+    margin: 100px 0;
+}
+section{
+    margin-bottom: 100px;
+}
+
