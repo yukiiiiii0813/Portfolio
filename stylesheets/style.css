@@ -90,13 +90,14 @@ hr{
     padding-top: 16px;
     font-weight: 800;
 }
-/* main */
-.img-back-1{
+.detail-hero-img{
     width: 100%;
-    height: 360px;
+    height: 440px;
     margin-bottom: 100px;
-    background-image: url();
+    object-fit: cover;
+    object-position: center;
 }
+/* main */
 
 .detail-main-h1{
     margin-bottom: 20px;
@@ -116,4 +117,7 @@ p{
 section{
     margin-bottom: 100px;
 }
+
+
+
 
