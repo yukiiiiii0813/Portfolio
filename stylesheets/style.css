@@ -27,9 +27,10 @@ li{
 
 /*profile-hero*/
 .hello{
-    font-size: 56px;
+    font-family: 'Modak', cursive;
+    font-size: 80px;
     color: #3413FF;
-    font-weight: bold;
+    margin-bottom: 8px;
 }
 .profile{
     font-size: 2.0rem;
@@ -92,7 +93,6 @@ hr{
 }
 .detail-hero-img{
     width: 100%;
-    height: 440px;
     margin-bottom: 100px;
     object-fit: cover;
     object-position: center;
@@ -119,5 +119,77 @@ section{
 }
 
 
+/* responsive */
+
+/* Latop */
+@media screen and (max-width: 1024px) {
+    body {
+        /* color: red; */
+    }
+}
+/* Tablet */ 
+@media screen and (max-width: 768px) {
+    .detail-main-h1{
+        font-size: 32px;
+    }
+    .detail-hero-h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    .myrole{
+        margin-top: 70px;
+    }
+    .detail-hero{
+        height: 100px;
+    }
+    .detail-row{
+        margin: 0 70px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 425px){
+    a{
+        font-size: 8px;
+    }
+    li{
+        margin-left: 16px;
+    }
+    .detail-main-h1 {
+        font-size: 20px;
+    }
+    
+    .detail-hero-h1 {
+        font-size: 20px;
+    }
+    .detail-row{
+        margin: 0 40px;
+    }
+    .detail-hero{
+        margin-top: 70px;
+        height: 70px;
+    }
+    .detail-hero-h3{
+        font-size: 16px;
+    }
+    .header-name{
+        margin: 8px;
+    }
+    .detail-hero-img{
+        margin-bottom: 70px;
+    }
+    .profile{
+        width: 300px;
+    }
+    .hello{
+        width: 300px;
+    }
+
+}
 
 
