@@ -9,7 +9,7 @@ body{
 }
 .header-name{
     font-size: 24px;
-    margin: 24px;
+    margin: 24px 0;
 }
 a{
     color: black;
@@ -34,6 +34,9 @@ li{
 }
 .profile{
     font-size: 2.0rem;
+}
+.profile-hero{
+    margin: 150px 100px;
 }
 /*contents*/
 hr{
@@ -185,10 +188,20 @@ section{
         margin-bottom: 70px;
     }
     .profile{
-        width: 300px;
+        font-size: 24px;
     }
     .hello{
-        width: 300px;
+        font-size: 56px;
+    }
+    .inner-box{
+        width: 280px;
+        height: 280px;
+    }
+    .profile-hero{
+        margin: 80px 40px;
+    }
+    .icon{
+        width: auto;
     }
 
 }
