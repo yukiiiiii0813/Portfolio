@@ -89,7 +89,7 @@ hr{
     text-align: center;
     height: 120px;
 }
-.detail-hero-h1,{
+.detail-hero-h1{
     font-size: 48px;
     margin: 0;
     padding-top: 16px;
@@ -129,7 +129,7 @@ section{
     margin-bottom: 200px;
 
 }
-.tools-icon-1,.tools-icon-2{
+.tools-icon-1{
     width: 88px;
     margin-bottom: 16px;
     margin-right: 16px;
@@ -227,7 +227,7 @@ section{
     .icon{
         width: auto;
     }
-    .tools-icon-1,.tools-icon-2{
+    .tools-icon-1{
         width: 56px;
     }
 
