@@ -89,7 +89,7 @@ hr{
     text-align: center;
     height: 120px;
 }
-.detail-hero-h1{
+.detail-hero-h1,{
     font-size: 48px;
     margin: 0;
     padding-top: 16px;
@@ -103,7 +103,7 @@ hr{
 }
 /* main */
 
-.detail-main-h1{
+.detail-main-h1,.about-main-h1{
     margin-bottom: 20px;
     font-size: 48px;
     font-weight: 800;
@@ -123,6 +123,24 @@ section{
 }
 
 
+/* about page */
+.about-hero{
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+.tools-icon-1,.tools-icon-2{
+    width: 88px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.about-main-h1{
+    margin-bottom: 32px;
+}
+
+
+
+
 /* responsive */
 
 /* Latop */
@@ -133,7 +151,7 @@ section{
 }
 /* Tablet */ 
 @media screen and (max-width: 768px) {
-    .detail-main-h1{
+    .detail-main-h1,.about-main-h1{
         font-size: 32px;
     }
     .detail-hero-h1{
@@ -154,6 +172,12 @@ section{
     .detail-row{
         margin: 0 70px;
     }
+    .about-p{
+        margin-bottom: 72px;
+    }
+    .about-main-h1{
+        margin-bottom: 20px;
+    }
 }
 
 /* mobile */
@@ -164,7 +188,7 @@ section{
     li{
         margin-left: 16px;
     }
-    .detail-main-h1 {
+    .detail-main-h1,.about-main-h1 {
         font-size: 20px;
     }
     
@@ -203,6 +227,10 @@ section{
     .icon{
         width: auto;
     }
+    .tools-icon-1,.tools-icon-2{
+        width: 56px;
+    }
+
 
 }
 
